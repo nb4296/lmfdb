@@ -827,7 +827,7 @@ class BelyiSearchArray(SearchArray):
         geomtype = SelectBox(
             name="geomtype",
             label="Geometry type",
-            knowl="belyi.geometry_type",
+            knowl="belyi.geometry_type",example ="Euclidean",
             options=[("", "")] + list(geometry_types_dict.items()))
         is_primitive = YesNoBox(
             name="is_primitive",
